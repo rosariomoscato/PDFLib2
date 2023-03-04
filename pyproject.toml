@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "repl_nix_PDFLib2"
+version = "0.1.0"
+description = ""
+authors = ["Replit user <<>>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+PyPDF2 = "^3.0.1"
+fitz = "^0.0.1-alpha.2"
+Pillow = "^9.4.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
